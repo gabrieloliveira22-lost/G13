@@ -70,4 +70,4 @@ revisar todo o sistema
 organizar código
 preparar explicação do funcionamento
 
-01/06 - Seminário
+01/06 - Seminário.
