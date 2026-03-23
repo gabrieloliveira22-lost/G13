@@ -5,9 +5,9 @@ Alunos:
   Gabriel Henrique Oliveira Silva.
 
 INTRODUÇÃO
-
+  Desde 2012, com a publicação da Resolução Normativa nº 482 pela ANEEL, que permitiu aos consumidores instalarem pequenos sistemas e compensarem o excedente de energia na rede, observamos um "boom" de instalações de geração de energia fotovoltaica. Normalmente o sistema é gerenciado com a visita de um técnico especializado, no local onde estiver operando. Para que o sistema não seja sobrecarregado ou fornecendo tensão abaixo do padrão (19V), é necessário o controle para que se mantenha dentro de limites pré-definidos. Neste projeto, gerenciaremos apenas a tensão no sistema simulado. 
 OBJETIVOS
-  Monitoração de tensão de fonte de 19V simulando tensão de placa fotovoltaica. Será feita leitura de tensão através de placa arduíno ESP32, envio de dados via wireless para roteador e em seguida transmitidos via wifi para computador-servidor.
+  Com o objetivo de facilitar este monitoramento, será implementado software e hardware para medição de tensão da geração simulada e transmissão por wireless para central de processamento. Será considerada tensão dentro do padrão, caso a mesma se mantenha entre 18V (mínimo) e 20V (máximo).
 
 EQUIPAMENTOS, SOFTWARES E MATERIAIS
   1 - Fonte de tensão 19V,
