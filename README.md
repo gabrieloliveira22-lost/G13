@@ -20,3 +20,53 @@ EQUIPAMENTOS, SOFTWARES E MATERIAIS
 
 CRONOGRAMA
   
+23/03 - Definição do cronograma;
+Planejamento das etapas: leitura de tensão, transmissão de dados e visualização no servidor.
+
+30/03 - Estrutura base do programa;
+Configuração inicial no ESP32 e criação da base do código no Visual Studio Code / Eclipse / NetBeans.
+
+06/04 - Definições de objetos e classes;
+Definição das estruturas do sistema:
+classe de leitura de tensão
+classe de comunicação Wi-Fi
+classe de envio de dados
+estrutura do servidor
+
+13/04 - Aprimoramento das características dos objetos;
+ajuste da leitura 
+calibração da tensão
+melhoria na estrutura do código
+organização das funções.
+
+20/04 - Implementação da leitura de tensão;
+leitura da fonte 19V pelo ESP32
+conversão para valores reais
+testes no monitor serial.
+
+27/04 - Desenvolvimento do envio de dados (Wi-Fi);
+conexão com roteador A930H
+envio de dados via HTTP ou MQTT
+testes de comunicação.
+
+04/05 - Criação da lógica de monitoramento (simulação de falhas);
+definir limites de tensão
+detectar quedas ou valores anormais
+simular falhas na fonte
+
+11/05 - Testes de validação de fluxo e correção de bugs;
+testar leitura → envio → recepção
+corrigir erros de comunicação
+validar estabilidade
+
+18/05 - Formatação da saída de dados;
+exibição no servidor (terminal ou interface)
+organização dos dados recebidos
+apresentação das tensões e alertas
+
+25/05 - Revisão final do código e preparação dos slides da apresentação;
+revisar todo o sistema
+organizar código
+preparar explicação do funcionamento
+
+01/06 - Seminário
